@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+body{
+    box-sizing: border-box;  
+    margin: 0 auto; 
+    width: 100vw;
+    font-family: 'Poppins', sans-serif;
+    background-color: white;
+    overflow-x: hidden; 
+
+}
+
+.socials{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: grey;
+    line-height: 200%;
+    box-sizing: border-box;  
+
+}
+
+.socials img{
+    width: 2%; 
+    height: 2%;
+    box-sizing: border-box;  
+}
+
+header{
+    position: fixed; 
+    top: 0; 
+    width: 100%;
+    background-color: lightblue;
+    box-sizing: border-box;  
+
+
+}
+.mainMenu{
+    display: flex; 
+    justify-content: space-between;
+    align-items: center;
+    height: 12vh;
+    margin: 0;
+    box-sizing: border-box; 
+}
+
+#links{
+    flex-basis: 70%;
+    text-align: center;
+    display: flex; 
+    justify-content: space-evenly;
+    box-sizing: border-box;  
+
+}
+
+#links a{
+    text-decoration: none;
+    font-size: 130%;
+    text-transform: uppercase;
+    color: white;
+}
+
+#links a:hover{
+    color: gray; 
+}
+
+.logo{
+    flex-basis: 15%;
+    display: flex;
+    justify-content: space-around;
+}
+
+
+#signup{
+    flex-basis: 15%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 10%;
+}
+
+.aBtn{
+    text-decoration: none;
+    color: lightblue; 
+    background-color: white;
+    padding: 7% 13%; 
+    border: lightblue; 
+    border-radius: 10px;
+    font-size: 130%;
+}
+
+.aBtn:hover{
+    color: white; 
+    background-color: lightblue;
+    border: 2px white solid; 
+}
+
+#thankYou{
+    font-size: 500%;
+    color: lightblue; 
+    text-align: center;
+}
+
+#thankYouText{
+    margin: 0 10vw 10vh 10vw;
+
+}
+
+
+
+main{
+    margin-top: 12vh;
+    height: 73vh;
+    display: flex; 
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+
+
+}
+
+
+footer{
+    height: 15vh;
+    background-color: grey;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    bottom: 0;
+    width: 100vw;
+    box-sizing: border-box;
+}
+
+footer img{
+    max-width: 30px; 
+    max-height: 30px; 
+    width: auto; 
+    height: auto; 
+
+}
+
+footer a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 30px; 
+    max-height: 30px; 
+    width: auto; 
+    height: auto; 
+
+}

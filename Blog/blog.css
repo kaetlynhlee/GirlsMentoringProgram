@@ -1,0 +1,201 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+
+body{
+    box-sizing: border-box;  
+    margin: 0; 
+    font-family: 'Poppins', sans-serif;
+    overflow-x: hidden; 
+
+}
+
+.socials{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: grey;
+    line-height: 200%;
+}
+
+.socials img{
+    width: 2%; 
+    height: 2%;
+}
+
+header{
+    position: fixed; 
+    top: 0; 
+    width: 100%;
+    background-color: lightblue;
+    box-sizing: border-box;
+}
+.mainMenu{
+    display: flex; 
+    justify-content: space-between;
+    align-items: center;
+    height: 12vh;
+    margin: 0;
+    box-sizing: border-box; 
+}
+
+#links{
+    flex-basis: 70%;
+    text-align: center;
+    display: flex; 
+    justify-content: space-evenly;
+}
+
+#links a{
+    text-decoration: none;
+    font-size: 130%;
+    text-transform: uppercase;
+    color: white;
+}
+
+#links a:hover{
+    color: gray; 
+}
+
+.logo{
+    flex-basis: 15%;
+    display: flex;
+    justify-content: space-around;
+}
+
+
+
+#signup{
+    flex-basis: 15%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 10%;
+}
+
+.aBtn{
+    text-decoration: none;
+    color: lightblue; 
+    background-color: white;
+    padding: 7% 13%; 
+    border: lightblue; 
+    border-radius: 10px;
+    font-size: 130%;
+}
+
+.aBtn:hover{
+    color: white; 
+    background-color: lightblue;
+    border: 2px white solid; 
+}
+
+
+/* #signup{
+    flex-basis: 15%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 80%;
+}
+
+#signup a{
+    text-decoration: none;
+    color: lightblue;
+}
+
+#signup a:hover{
+    color: white; 
+}
+
+button{
+    height: 70%;
+    width: 70%;
+    background-color: white;
+    border: 2px lightblue solid; 
+    border-radius: 15px;
+    color: lightblue; 
+    font-size: 140%;
+    box-sizing: border-box;
+}
+
+button:hover{
+    background-color: lightblue;
+    color: white; 
+    border: 2px white solid; 
+    box-sizing: border-box;
+} */
+
+main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 12vh;
+    margin-bottom: 5vh;
+
+
+}
+
+.posts{
+    margin: 3% auto 3% auto;
+}
+
+.blogPost{
+    /* border: 5px lightblue solid;  */
+    margin: 3% auto; 
+    width: 80vw; 
+    padding: 1%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.blogPostTitle{
+    margin-bottom: 1%;
+    font-size: 200%;
+    width: 50%;
+    text-align: center;
+    border-top: 3px lightblue solid; 
+    border-bottom: 3px lightblue solid; 
+    color: darkgray; 
+    line-height: 10vh;
+}
+
+.blogPostText{
+
+    width: 70%;
+}
+
+
+
+
+
+footer{
+    height: 15vh;
+    background-color: grey;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    bottom: 0;
+    width: 100vw;
+    box-sizing: border-box;
+}
+
+footer img{
+    max-width: 30px; 
+    max-height: 30px; 
+    width: auto; 
+    height: auto; 
+
+}
+
+footer a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 30px; 
+    max-height: 30px; 
+    width: auto; 
+    height: auto; 
+
+}

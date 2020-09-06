@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Form</title>
+    <link rel="stylesheet" href="signUpPage.css">
+</head>
+<body>
+
+    <header>
+       
+             
+        <div class="mainMenu">
+            <div class="logo">
+                <a href="../index.html">Home</a>
+            </div>
+            <div id="links">
+                <a href="../About Us/aboutUs.html">About Us</a>
+                <a href="../How To Help/howToHelp.html">How To Help</a>
+                <a href="../Blog/blog.html">Blog</a>
+                <a href="../Mentors/mentors.html">Mentors</a>
+            </div>
+            <div id="signup">
+                 <a class="aBtn" href="signUpPage.html">SIGN UP</a>
+            </div>
+        </div>
+    </header>
+
+    <form>   
+        <legend>Tell us about yourself!</legend> 
+        <div class='container'>
+            <p>I'm signing up to be a:</p>
+
+            <div class="checkboxes">
+                <div id="menteeCheck">
+                    <input type="radio" id="mentee" name="mentormentee" value="mentee">            
+                    <label for="mentee">Mentee</label>
+                </div>
+                
+                <div id="mentorCheck">
+                    <input type="radio" id="mentor" name="mentormentee" value="mentor">
+                    <label for="mentor">Mentor</label>
+                </div>
+         
+    
+            </div>
+           
+        </div>   
+        <div class='container'>
+            <label for="firstName">Name</label>
+            <input type="text" id="firstName" name="FirstName" placeholder="First Name" required>
+            <input type="text" id="lastName" name="LastName" placeholder="Last Name">
+        </div>
+
+        <div class='container'>
+            <label for="email">Email Address</label>
+            <input type="text" id="email" name="Email" placeholder="Email">
+        </div>
+
+        <div class='container'>
+            <label for="phone">Phone Number</label>
+            <input type="number" id="mobilePhone" name="mobilePhone" placeholder="Mobile">
+            <input type="number" id="homePhone" name="homePhone" placeholder="Home">
+
+        </div>
+
+        <div class='container'>
+            <label for="month">Date of Birth</label>
+            <input type="text" id="month" name="Month" placeholder="Month">
+            <input type="text" id="day" name="Day" placeholder="Day">
+            <input type="text" id="year" name="Year" placeholder="Year">
+        </div>
+
+        <div class="container">
+            <label for="state">Where are you located?</label>
+            <input type="text" id="state" name="State" placeholder="State">
+            <input type="text" id="country" name="Country" placeholder="Country">
+        </div>
+        <div class="menteeFields">
+            <div class='container'>
+                <label for="schoolName">Grade</label>
+                <input type="text" id="grade" name="grade" placeholder="Grade">
+        
+                <input type="text" id="careerInterest" name="careerInterest" placeholder="Possible Career Interest">
+    
+            </div>  
+        </div>
+        
+
+        <div class="mentorFields">
+            <div class='container'>
+                <label for="schoolName">Education</label>
+                <input type="text" id="schoolName" name="schoolName" placeholder="School Name">
+        
+                <input type="text" id="major" name="schoolName" placeholder="Major/Area of Study">
+
+    </div>
+
+    <div class="container">
+        <label for="occupationField">Current Occupation</label>
+        <input type="text" id="occupationField" name="occupationField" placeholder="Field">
+        <input type="text" id="occupation" name="occupation" placeholder="Occupation">
+    </div>
+        </div>
+
+        <div class="container">
+            <label for="interests">Interests</label>
+            <textarea name="interests" id="interests"  rows="9" placeholder="Tell us about what you like! Favorite color, favorite food, favorite band, we want to know everything! "></textarea>
+        </div>
+
+         
+
+
+     
+
+        <div class="container" id="signupContainer">
+            <button class="aBtn" type="submit">Submit</button>
+
+        </div>
+    </form>
+
+
+
+
+    <footer>
+        <a href="https://twitter.com/home">
+            <img src="../images/twitter-xxl.png" alt="">
+        </a>
+        <a href="https://www.facebook.com/">
+            <img src="../images/facebook-xxl.png" alt="">
+        </a>
+        <a href="https://www.instagram.com/">
+            <img src="../images/instagram-xxl.png" alt="">
+        </a>
+        <a href="https://www.google.com/gmail/">
+            <img src="../images/email-xxl.png" alt="">
+        </a>
+
+
+</footer>
+
+
+
+    <script src="app.js"></script>
+</body>
+</html>

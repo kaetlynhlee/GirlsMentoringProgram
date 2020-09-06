@@ -1,0 +1,268 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+body{
+    box-sizing: border-box;  
+    margin: 0 auto; 
+    width: 100vw;
+    font-family: 'Poppins', sans-serif;
+    background-color: white;
+    overflow-x: hidden; 
+
+}
+
+.socials{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: grey;
+    line-height: 200%;
+    box-sizing: border-box;  
+
+}
+
+.socials img{
+    width: 2%; 
+    height: 2%;
+    box-sizing: border-box;  
+}
+
+header{
+    position: fixed; 
+    top: 0; 
+    background-color: lightblue;
+    box-sizing: border-box;  
+    width: 100%;
+
+}
+.mainMenu{
+    display: flex; 
+    justify-content: space-between;
+    align-items: center;
+    height: 12vh;
+    margin: 0;
+    box-sizing: border-box; 
+}
+
+#links{
+    flex-basis: 70%;
+    text-align: center;
+    display: flex; 
+    justify-content: space-evenly;
+    box-sizing: border-box;  
+}
+
+#links a{
+    text-decoration: none;
+    font-size: 130%;
+    text-transform: uppercase;
+    color: white;
+}
+#links a:hover{
+    color: gray; 
+}
+
+.logo{
+    flex-basis: 15%;
+    display: flex;
+    justify-content: space-around;
+}
+
+#signup{
+    flex-basis: 15%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 10%;
+}
+
+.aBtn{
+    text-decoration: none;
+    color: lightblue; 
+    background-color: white;
+    padding: 7% 13%; 
+    border: lightblue; 
+    border-radius: 10px;
+    font-size: 130%;
+}
+
+.aBtn:hover{
+    color: white; 
+    background-color: lightblue;
+    border: 2px white solid; 
+}
+
+/* #signup{
+    flex-basis: 15%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 80%;
+}
+#signup a{
+    text-decoration: none;
+    color: lightblue;
+}
+
+#signup a:hover{
+    color: white; 
+}
+
+
+button{
+    height: 70%;
+    width: 70%;
+    background-color: white;
+    border: 2px lightblue solid; 
+    border-radius: 15px;
+    color: lightblue; 
+    font-size: 140%;
+    box-sizing: border-box;
+}
+
+button:hover{
+    background-color: lightblue;
+    color: white; 
+    border: 2px white solid; 
+    box-sizing: border-box;
+} */
+
+#meet{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;  
+
+}
+
+
+h1{
+    color: lightblue;
+    font-size: 300%;
+    margin-bottom: .5%;
+    box-sizing: border-box; 
+
+}
+
+#meet p{
+    color: #4A5356;
+}
+
+.mentors{
+    display: flex; 
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.individualMentor{
+    text-align: center; 
+    display: flex; 
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.individualMentor img{
+    margin: 5%; 
+}
+
+
+
+img{
+    max-height: 350px; 
+    max-width: 400px;
+}
+
+
+.mentorText{
+    background: rgba(173,216,230, .3);
+    color: #4A5356;
+    height: auto;
+    width: 70vw;    
+    font-size: 14pt;
+    padding: 5%; 
+}
+
+.mentorName{
+    color: white; 
+    font-size: 30pt; 
+    font-weight: bold;
+    text-shadow: 2px 2px lightblue;
+}
+
+
+
+
+main{
+    margin-top: 12vh;
+    margin-bottom: 5vh;
+    width: 100vw;
+
+}
+
+
+
+
+footer{
+    height: 15vh;
+    background-color: grey;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    bottom: 0;
+    width: 100vw;
+    box-sizing: border-box;
+}
+
+footer img{
+    max-width: 30px; 
+    max-height: 30px; 
+    width: auto; 
+    height: auto; 
+
+
+}
+
+footer a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 30px; 
+    max-height: 30px; 
+    width: auto; 
+    height: auto; 
+
+}
+
+@media (min-width:900px){
+    .individualMentor{
+        display: flex; 
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .mentorText{
+        background: rgba(173,216,230, .3);
+        color: #4A5356;
+        height: auto;
+        max-width: 700px;    
+        font-size: 14pt;
+        padding: 5%; 
+    }
+
+    .reverseMentor{
+        flex-direction: row-reverse;
+    }
+    
+
+    
+   
+    
+
+}
+
+
+
+
