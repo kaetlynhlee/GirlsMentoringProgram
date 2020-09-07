@@ -1,4 +1,4 @@
-const images = ['../Images/pexels-photo-569163.jpeg', '../Images/pexels-photo-862848.jpeg', '../Images/pexels-photo-1065081.jpeg', '../Images/pexels-photo-1436618.jpeg'];
+const images = ['../Images/pexels-photo-569163.png', '../Images/pexels-photo-862848.png', '../Images/pexels-photo-1065081.png', '../Images/pexels-photo-1436618.png'];
 
 let currentImgIndex = 0
 const mainImg = document.getElementById('mainImage'); 
